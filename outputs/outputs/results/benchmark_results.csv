@@ -1,0 +1,6 @@
+model,accuracy_percent,precision_macro_percent,recall_macro_percent,f1_macro_percent,size_mb,latency_ms_per_image,throughput_images_per_sec
+FP32 (PyTorch),92.97,92.965,92.97,92.963,42.701,23.835,72.692
+PTQ INT8 (PyTorch),92.79,92.793,92.79,92.786,10.784,11.354,110.994
+QAT INT8 (PyTorch),93.1,93.094,93.1,93.092,10.784,10.191,111.599
+FP32 (ONNX),92.97,92.965,92.97,92.963,42.616,11.742,85.776
+INT8 (ONNX),92.05,92.1,92.05,92.064,10.767,7.18,143.003

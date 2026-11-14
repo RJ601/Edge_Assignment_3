@@ -1,0 +1,7 @@
+model,accuracy_percent,precision_macro_percent,recall_macro_percent,f1_macro_percent,size_mb,latency_ms_per_image,throughput_images_per_sec,params_total,params_nonzero,params_zero_percent
+FP32 (PyTorch),92.97,92.965,92.97,92.963,42.701,19.882,70.402,11173962,11173962,0.0
+Unstructured-pruned (PyTorch),93.2,93.212,93.2,93.202,42.703,22.166,64.56,11173962,2242481,79.931
+Structured-pruned (PyTorch),93.19,93.188,93.19,93.185,21.735,14.408,118.743,5679306,5679306,0.0
+FP32 (ONNX),92.97,92.965,92.97,92.963,42.616,12.401,82.98,11173962,11173962,0.0
+Unstructured-pruned (ONNX),93.2,93.212,93.2,93.202,42.616,12.295,82.799,11173962,2242481,79.931
+Structured-pruned (ONNX),93.19,93.188,93.19,93.185,21.659,5.988,161.937,5679306,5679306,0.0

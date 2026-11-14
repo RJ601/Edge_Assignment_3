@@ -1,0 +1,9 @@
+# Google Colab already has torch and torchvision installed.
+# On your own machine, also install:  torch  torchvision
+onnx
+onnxruntime
+pandas
+openpyxl
+scikit-learn
+pillow
+numpy
